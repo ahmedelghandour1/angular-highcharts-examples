@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+.card{
+    max-width: 1400px;
+    padding: 5px;
+    box-shadow: 1px 1px 10px #00000021;
+    display: flex;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #f9f9f9;
+    chart{
+        width: 70%;
+    }
+    .chart-right{
+        width: 30%;
+        padding: 20px;
+        text-align: right
+    }
+}
